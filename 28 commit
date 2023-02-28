@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- POPPINS FONT ADDED -->
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <!-- ARCHIVO FONT ADDED -->
+  <link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'>
+  <!-- NUNITO FONT ADDED -->
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+  <!-- BOOTSTRAP ADDED -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <title>Document</title>
+
+  <style>
+    #nav_barassign {
+      position: absolute;
+      top: 65px;
+      width: 1440px;
+      margin-left: 560px;
+
+
+    }
+
+    #banner {
+
+      background-image: linear-gradient(180deg, rgb(0, 0, 0)40px, rgba(0, 0, 0, 0)200px), url(assets/main\ banner.png);
+      height: 798px;
+      background-repeat: no-repeat;
+
+    }
+
+    #home_id,
+    #product_id,
+    #promo_id,
+    #about_id,
+    #contact_id {
+      color: azure;
+      font-family: poppins;
+      font-weight: bold;
+      padding-left: 50px;
+      font-size: 25px;
+
+    }
+
+    #logo {
+      margin-top: 50px;
+      margin-left: 20px;
+    }
+
+    #main_info {
+      height: 400px;
+
+    }
+
+    #off_title {
+      position: absolute;
+      top: 115px;
+
+      right: 660px;
+    }
+
+    #offer {
+      font-family: archivo;
+      font-weight: bolder;
+      color: white;
+      font-size: 91px;
+      filter: drop-shadow(5px 5px 2px black);
+      height: 400px;
+    }
+
+    #subtitle {
+      margin-left: 200px;
+      font-family: nunito;
+      font-size: 20px;
+      color: white;
+      position:absolute;
+      top:350px;
+      left:0px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="banner">
+    <img id="logo" src="assets/logo.png">
+
+  </div>
+  <div id="nav_barassign">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" id="home_id">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="product_id">PRODUCT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="promo_id">
+                PROMO
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="about_id">
+                ABOUT
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" id="contact_id">CONTACT</a>
+            </li>
+          </ul>
+
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div id="main_info">
+    <pre id="off_title"><h1 id="offer">
+          Get Cashback
+          Up to 50%
+        </h1>
+        <pre>
+        <p id="subtitle">
+          Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit. Suspendisse consectetur
+          justo eu nunc consequat.</p>
+          </pre>
+    </pre>
+  </div>
+
+
+
+
+</body>
+
+</html>
