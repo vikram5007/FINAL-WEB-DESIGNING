@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 #nav_barassign {
     position: absolute;
     top: 65px;
@@ -40,7 +44,7 @@
     position: absolute;
     top: 115px;
 
-    left:10px;
+    left: 10px;
 }
 
 #offer {
@@ -258,25 +262,325 @@
 
 #page4sub {
     position: relative;
-   
+
     font-size: 25px;
     color: #f64b3c;
     font-weight: 400;
     font-family: "Montserrat";
 
-    margin-top:280px;
-    margin-left:90px;
+    margin-top: 280px;
+    margin-left: 90px;
 }
 
-#on3{
-    position:absolute;
+#on3 {
+    position: absolute;
     margin-left: 125px;
-    top:2925px;
-    
+    top: 2925px;
+
 }
 
-#p4burger{
-    position:absolute;
-    left:826px;
-    top:2566px;
+#p4burger {
+    position: absolute;
+    left: 826px;
+    top: 2566px;
+}
+
+#page5 {
+    margin-top: 0px;
+    height: 798px;
+    width: 1440px;
+
+    background-color: #f54b3c;
+}
+
+
+#p5title {
+    position: absolute;
+    font-size: 62px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+    top: 3279px;
+    margin-left: 576px;
+}
+
+#page5sub {
+    position: relative;
+    top: 195px;
+    left: 370px;
+
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+
+#p5card1 {
+    margin-top: 301px;
+    margin-left: 105px;
+}
+
+#p5card2 {
+    margin-top: 301px;
+    margin-left: 105px;
+}
+
+#p5card3 {
+    margin-top: 301px;
+    margin-left: 105px;
+}
+
+
+#page6 {
+
+    width: 1440px;
+    height: 824px;
+    background-color: #f5eddf;
+
+}
+
+#p6bg {
+    position: absolute;
+    margin-top: 20px;
+
+
+}
+
+.card {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 105px;
+}
+
+.card2 {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 510px;
+}
+
+.card3 {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 910px;
+}
+
+#p6title {
+    position: relative;
+    font-size: 75px;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+    top: 98px;
+    margin-left: 435px;
+}
+
+#page7 {
+
+    width: 1440px;
+    height: 824px;
+    background-image: url(assets/p7bg.png);
+    background-size: cover;
+
+}
+
+
+#imageoverlay {
+    position: absolute;
+    opacity: 0.65;
+    width: 1440px;
+    height: 824px;
+    background-color: #f54b3c;
+    z-index: 1;
+
+}
+
+#p7sub {
+    position: relative;
+    top: 20px;
+    width: 2746px;
+    height: 483px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+    z-index: 2;
+    top: 300px;
+    right: 675px;
+
+
+}
+
+#p7heading {
+    position: absolute;
+
+    z-index: 3;
+
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Calistoga";
+    text-align: center;
+    margin-left: 540px;
+    margin-top: 10px;
+}
+
+#page8 {
+
+    width: 1440px;
+    height: 824px;
+    background-color: #f6eedf;
+    position: absolute;
+    margin-top: 0px;
+
+
+}
+
+#bgobj3 {
+    position: absolute;
+    margin-top: 45px;
+}
+
+#p8title {
+    font-size: 75px;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+
+    margin-top: 233px;
+    margin-left: 270px;
+}
+
+#p8sub {
+    width: 1509px;
+    height: 150px;
+    font-size: 30px;
+    color: #f64b3c;
+    font-weight: 400;
+    font-family: "Nunito";
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+
+#emailinput {
+    width: 549px;
+    margin-left: 265px;
+}
+
+#email {
+    border: none;
+    border-left: none;
+    position: absolute;
+    ;
+    right: 435px;
+    height: 63px;
+    width: 215px;
+    padding: 0px;
+}
+
+#page9 {
+
+    width: 1440px;
+    height: 824px;
+    background-color: #222222;
+    position: absolute;
+    margin-top: 824px;
+}
+
+#col1heading {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+    margin-top: 235px;
+    margin-left: 93px;
+}
+
+#col1para {
+
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    margin-left: 55px;
+    margin-top: 20px;
+    width: 958px;
+    height: 244px;
+}
+
+#socialmedia {
+    margin-left: 85px;
+    width:200px;
+
+}
+
+
+#col2heading {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+    margin-left: 570px;
+   position: absolute;
+   top:230px
+
+}
+
+#col2 {
+    font-size: 20px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    margin-left: 540px;
+    position: absolute;
+   top:280px
+
+}
+
+#col3heading {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+    margin-left: 850px;
+   position: absolute;
+   top:230px
+
+}
+
+#col3 {
+    font-size: 20px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    margin-left: 820px;
+    position: absolute;
+   top:280px
+
+}
+
+#col4heading {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+    margin-left: 1100px;
+   position: absolute;
+   top:230px
+
+}
+
+#col4{
+    font-size: 20px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    margin-left: 1070px;
+    position: absolute;
+   top:280px
+
 }
