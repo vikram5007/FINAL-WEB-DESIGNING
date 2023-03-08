@@ -114,14 +114,14 @@ body {
     height: 254px;
     width: 245px;
     border-radius: 180px;
-    margin-left: 195px;
+    margin-left: 150px;
     margin-top: 320px;
 
 }
 
 #chefnames {
     margin-top: 20px;
-    margin-left: 187px;
+    margin-left: 150px;
     font-family: archivo;
     font-weight: bold;
     font-size: 33px;
@@ -130,7 +130,7 @@ body {
 
 #chefdesignations {
     margin-top: 28px;
-    margin-left: 269px;
+    margin-left: 230px;
     font-family: nunito;
     font-weight: bold;
     font-size: 25px;
@@ -142,7 +142,7 @@ body {
     height: 254px;
     width: 245px;
     border-radius: 180px;
-    margin-left: 584px;
+    margin-left: 570px;
     top: 1120px;
 
 }
@@ -150,7 +150,7 @@ body {
 #chefname2 {
     position: absolute;
     top: 1390px;
-    margin-left: 574px;
+    margin-left: 560px;
     font-family: archivo;
     font-weight: bold;
     font-size: 33px;
@@ -160,7 +160,7 @@ body {
 #chefdesignation2 {
     position: absolute;
     top: 1460px;
-    margin-left: 636px;
+    margin-left: 620px;
     font-family: nunito;
     font-weight: bold;
     font-size: 25px;
@@ -172,7 +172,7 @@ body {
     height: 254px;
     width: 245px;
     border-radius: 180px;
-    margin-left: 1004px;
+    margin-left: 980px;
     top: 1120px;
 
 }
@@ -180,7 +180,7 @@ body {
 #chefname3 {
     position: absolute;
     top: 1390px;
-    margin-left: 980px;
+    margin-left: 950px;
     font-family: archivo;
     font-weight: bold;
     font-size: 33px;
@@ -190,7 +190,7 @@ body {
 #chefdesignation3 {
     position: absolute;
     top: 1460px;
-    margin-left: 1060px;
+    margin-left: 1030px;
     font-family: nunito;
     font-weight: bold;
     font-size: 25px;
