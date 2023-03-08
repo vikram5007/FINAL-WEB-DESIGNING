@@ -1,25 +1,21 @@
 body {
     overflow-x: hidden;
 }
-
+ /* NAVBAR STYLE DONE */
 #nav_barassign {
     position: absolute;
     top: 65px;
     width: 1440px;
     margin-left: 560px;
-
-
 }
-
+/* BG IMAGE ALONG WITH LINEAR GRADIENT DONE */
 #banner {
-
     background-image: linear-gradient(180deg, rgb(0, 0, 0)40px, rgba(0, 0, 0, 0)200px), url(assets/main\ banner.png);
     height: 798px;
     background-repeat: no-repeat;
     width: 1440px;
-
 }
-
+/* NAVBAR ITEMS STYLE DONE USING GROUPING SELECTOR */
 #home_id,
 #product_id,
 #promo_id,
@@ -30,23 +26,19 @@ body {
     font-weight: bold;
     padding-left: 50px;
     font-size: 25px;
-
 }
-
+/* LOGO POSITIONING */
 #logo {
     margin-top: 50px;
     margin-left: 20px;
 }
-
-
-
+/* OFFER PRE TAG POSITIONED  */
 #off_title {
     position: absolute;
     top: 115px;
-
     left: 10px;
 }
-
+/* OFFFER TITLE POSITIONED  */
 #offer {
     font-family: archivo;
     font-weight: bolder;
@@ -55,7 +47,7 @@ body {
     filter: drop-shadow(5px 5px 2px black);
     height: 400px;
 }
-
+/* OFFFER SUB-TITLE POSITIONED  */
 #subtitle {
     margin-left: 200px;
     font-family: nunito;
@@ -65,34 +57,27 @@ body {
     top: 350px;
     right: 190px;
 }
-
+/* ORDER NOW BUTTON POSITIONED  */
 #on1 {
     position: absolute;
     top: 625px;
     left: 80px;
 }
-
+/*PAGE 2 ALIGNED  */
 #page2 {
-
     margin-top: 0px;
     height: 798px;
     width: 1440px;
-
     background-color: #f5eddf;
-
-
 }
-
+/*PAGE 2 BACKGROUND OBJECT ALIGNED  */
 #bgobj1 {
     position: absolute;
     margin-top: 113px;
 
-
-
 }
-
+/*PAGE 2 HEADING ALIGNED  */
 #page2head {
-
     font-family: archivo;
     font-weight: bold;
     position: absolute;
@@ -101,7 +86,7 @@ body {
     font-size: 64px;
     color: #f64b3c;
 }
-
+/*PAGE 2 SUB-HEADING ALIGNED  */
 #page2sub {
     position: absolute;
     font-family: montserrat;
@@ -109,7 +94,7 @@ body {
     margin-left: 361px;
     font-size: 25px;
 }
-
+/*PAGE 2 CHEF 1 IMAGE ALIGNED  */
 #chef1 {
     height: 254px;
     width: 245px;
@@ -118,7 +103,7 @@ body {
     margin-top: 320px;
 
 }
-
+/*PAGE 2 CHEF 1 NAME ALIGNED  */
 #chefnames {
     margin-top: 20px;
     margin-left: 150px;
@@ -127,7 +112,7 @@ body {
     font-size: 33px;
     color: #f64b3c;
 }
-
+/*PAGE 2 CHEF 1 DESIGNATION ALIGNED  */
 #chefdesignations {
     margin-top: 28px;
     margin-left: 230px;
@@ -136,7 +121,7 @@ body {
     font-size: 25px;
     color: #f64b3c;
 }
-
+/*PAGE 2 CHEF 2 IMAGE ALIGNED  */
 #chef2 {
     position: absolute;
     height: 254px;
@@ -144,9 +129,8 @@ body {
     border-radius: 180px;
     margin-left: 570px;
     top: 1120px;
-
 }
-
+/*PAGE 2 CHEF 2 NAME ALIGNED  */
 #chefname2 {
     position: absolute;
     top: 1390px;
@@ -156,7 +140,7 @@ body {
     font-size: 33px;
     color: #f64b3c;
 }
-
+/*PAGE 2 CHEF 2 DESIGNATION ALIGNED  */
 #chefdesignation2 {
     position: absolute;
     top: 1460px;
@@ -166,7 +150,7 @@ body {
     font-size: 25px;
     color: #f64b3c;
 }
-
+/*PAGE 2 CHEF 3 IMAGE ALIGNED  */
 #chef3 {
     position: absolute;
     height: 254px;
@@ -174,9 +158,8 @@ body {
     border-radius: 180px;
     margin-left: 980px;
     top: 1120px;
-
 }
-
+/*PAGE 2 CHEF 3 NAME ALIGNED  */
 #chefname3 {
     position: absolute;
     top: 1390px;
@@ -186,7 +169,7 @@ body {
     font-size: 33px;
     color: #f64b3c;
 }
-
+/*PAGE 2 CHEF 3 DESIGNATION ALIGNED  */
 #chefdesignation3 {
     position: absolute;
     top: 1460px;
@@ -196,21 +179,20 @@ body {
     font-size: 25px;
     color: #f64b3c;
 }
-
+/*PAGE 3 ALIGNED  */
 #page3 {
     margin-top: 0px;
     height: 798px;
     width: 1440px;
-
     background-color: #f54b3c;
 }
-
+/*PAGE 3 BURGER IMAGE ALIGNED  */
 #p3burger {
 
     margin-left: 155px;
     margin-top: 165px;
 }
-
+/*PAGE 3 TITLE ALIGNED  */
 #p3title {
     position: absolute;
     font-size: 75px;
@@ -220,36 +202,33 @@ body {
     top: 1800px;
     margin-left: 768px;
 }
-
+/*PAGE 3 SUB-TITLE ALIGNED  */
 #page3sub {
     position: absolute;
     top: 1940px;
     left: 750px;
-
     font-size: 30px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Nunito";
 }
-
+/*PAGE 3 ORDER NOW BUTTON ALIGNED  */
 #on2 {
     margin-top: 520px;
     margin-left: 125px;
 }
-
+/*PAGE 4 ALIGNED  */
 #page4 {
-
     width: 1440px;
     height: 824px;
     background-color: #f5eddf;
-
 }
-
+/*PAGE 4 BACKGROUND IMAGE ALIGNED  */
 #bgobj2 {
     position: absolute;
     margin-top: 20px;
 }
-
+/*PAGE 4 TITLE ALIGNED  */
 #p4title {
     position: relative;
     font-size: 75px;
@@ -259,41 +238,36 @@ body {
     top: 253px;
     margin-left: 135px;
 }
-
+/*PAGE 4 SUB-TITLE ALIGNED  */
 #page4sub {
     position: relative;
-
     font-size: 25px;
     color: #f64b3c;
     font-weight: 400;
     font-family: "Montserrat";
-
     margin-top: 280px;
     margin-left: 90px;
 }
-
+/*PAGE 4 ORDER NOW BUTTON ALIGNED  */
 #on3 {
     position: absolute;
     margin-left: 125px;
     top: 2925px;
-
 }
-
+/*PAGE 4 BURGER IMAGE ALIGNED  */
 #p4burger {
     position: absolute;
     left: 826px;
     top: 2566px;
 }
-
+/*PAGE 5 ALIGNED  */
 #page5 {
     margin-top: 0px;
     height: 798px;
     width: 1440px;
-
     background-color: #f54b3c;
 }
-
-
+/*PAGE 5 TITLE ALIGNED  */
 #p5title {
     position: absolute;
     font-size: 62px;
@@ -303,23 +277,22 @@ body {
     top: 3279px;
     margin-left: 576px;
 }
-
+/*PAGE 5 SUB-TITLE ALIGNED  */
 #page5sub {
     position: relative;
     top: 195px;
     left: 370px;
-
     font-size: 25px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Nunito";
 }
-
+/*PAGE 5 SUB-TITLE ALIGNED  */
 #p5card1 {
     margin-top: 301px;
     margin-left: 105px;
 }
-
+/*PAGE 5 CARDS ALIGNED  */
 #p5card2 {
     margin-top: 301px;
     margin-left: 105px;
@@ -329,29 +302,24 @@ body {
     margin-top: 301px;
     margin-left: 105px;
 }
-
-
+/*PAGE 6 ALIGNED  */
 #page6 {
-
     width: 1440px;
     height: 824px;
     background-color: #f5eddf;
-
 }
-
+/*PAGE 6 BACKGROUND ALIGNED  */
 #p6bg {
     position: absolute;
     margin-top: 20px;
-
-
 }
-
+/*PAGE 6 BACKGROUND ALIGNED  */
 .card {
     position: absolute;
     margin-top: 190px;
     margin-left: 105px;
 }
-
+/*PAGE 6 ORDER CARDS ALIGNED  */
 .card2 {
     position: absolute;
     margin-top: 190px;
@@ -363,7 +331,7 @@ body {
     margin-top: 190px;
     margin-left: 910px;
 }
-
+/*PAGE 6 TITLE ALIGNED  */
 #p6title {
     position: relative;
     font-size: 75px;
@@ -373,17 +341,14 @@ body {
     top: 98px;
     margin-left: 435px;
 }
-
+/*PAGE 7 ALIGNED  */
 #page7 {
-
     width: 1440px;
     height: 824px;
     background-image: url(assets/p7bg.png);
     background-size: cover;
-
 }
-
-
+/*PAGE 7 OVERLAY ALIGNED  */
 #imageoverlay {
     position: absolute;
     opacity: 0.65;
@@ -393,7 +358,7 @@ body {
     z-index: 1;
 
 }
-
+/*PAGE 7 SUB-TITLE ALIGNED  */
 #p7sub {
     position: relative;
     top: 20px;
@@ -407,15 +372,11 @@ body {
     z-index: 2;
     top: 300px;
     right: 675px;
-
-
 }
-
+/*PAGE 7 TITLE ALIGNED  */
 #p7heading {
     position: absolute;
-
     z-index: 3;
-
     font-size: 45px;
     color: #ffffff;
     font-weight: 400;
@@ -424,33 +385,29 @@ body {
     margin-left: 540px;
     margin-top: 10px;
 }
-
+/*PAGE 8 ALIGNED  */
 #page8 {
-
     width: 1440px;
     height: 824px;
     background-color: #f6eedf;
     position: absolute;
     margin-top: 0px;
-
-
 }
-
+/*PAGE 8 BACKGROUND OBJECT ALIGNED  */
 #bgobj3 {
     position: absolute;
     margin-top: 45px;
 }
-
+/*PAGE 8 TITLE ALIGNED  */
 #p8title {
     font-size: 75px;
     color: #f64b3c;
     font-weight: 700;
     font-family: "Archivo";
-
     margin-top: 233px;
     margin-left: 270px;
 }
-
+/*PAGE 8 SUB-TITLE ALIGNED  */
 #p8sub {
     width: 1509px;
     height: 150px;
@@ -461,42 +418,39 @@ body {
     margin-left: 250px;
     margin-top: 40px;
 }
-
-
+/*PAGE 8 EMAIL INPUT AREA  ALIGNED  */
 #emailinput {
     width: 549px;
     margin-left: 265px;
 }
-
-#email {
+/*PAGE 8 EMAIL SUBMIT BUTTON ALIGNED  */
+#emailbut{
     border: none;
     border-left: none;
     position: absolute;
-    ;
     right: 435px;
     height: 63px;
     width: 215px;
     padding: 0px;
 }
-
+/*PAGE 9 ALIGNED  */
 #page9 {
-
     width: 1440px;
     height: 824px;
     background-color: #222222;
     position: absolute;
     margin-top: 824px;
 }
-
+/*PAGE 9 COLUMN 1 HEADING ALIGNED  */
 #col1heading {
     font-size: 30px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Archivo";
     margin-top: 235px;
-    margin-left: 93px;
+    margin-left: 83px;
 }
-
+/*PAGE 9 COLUMN 1 PARA ALIGNED  */
 #col1para {
 
     font-size: 20px;
@@ -508,14 +462,35 @@ body {
     width: 958px;
     height: 244px;
 }
-
-#socialmedia {
+/*PAGE 9 COLUMN 1 IG LOGO ALIGNED  */
+#ig{
     margin-left: 85px;
     width:200px;
-
+    height:42px;
+    width:42px;
 }
-
-
+/*PAGE 9 COLUMN 1 FACEBOOK LOGO ALIGNED  */
+#fb{
+    margin-left:15px;
+    width:200px;
+    height:42px;
+    width:42px;
+}
+/*PAGE 9 COLUMN 1 TWITTER LOGO ALIGNED  */
+#twi{
+    margin-left:15px;
+    width:200px;
+    height:42px;
+    width:42px;
+}
+/*PAGE 9 COLUMN 1 WHATSAPP LOGO ALIGNED  */
+#wp{
+    margin-left:15px;
+    width:200px;
+    height:42px;
+    width:42px;
+}
+/*PAGE 9 COLUMN 2 HEADING ALIGNED  */
 #col2heading {
     font-size: 30px;
     color: #ffffff;
@@ -524,9 +499,8 @@ body {
     margin-left: 570px;
    position: absolute;
    top:230px
-
 }
-
+/*PAGE 9 COLUMN 2 LIST ITEMS ALIGNED  */
 #col2 {
     font-size: 20px;
     line-height: 42px;
@@ -538,7 +512,7 @@ body {
    top:280px
 
 }
-
+/*PAGE 9 COLUMN 3 HEADING ALIGNED  */
 #col3heading {
     font-size: 30px;
     color: #ffffff;
@@ -547,9 +521,8 @@ body {
     margin-left: 850px;
    position: absolute;
    top:230px
-
 }
-
+/*PAGE 9 COLUMN 3 LIST ITEMS ALIGNED  */
 #col3 {
     font-size: 20px;
     line-height: 42px;
@@ -559,9 +532,8 @@ body {
     margin-left: 820px;
     position: absolute;
    top:280px
-
 }
-
+/*PAGE 9 COLUMN 4 HEADING ALIGNED  */
 #col4heading {
     font-size: 30px;
     color: #ffffff;
@@ -570,9 +542,8 @@ body {
     margin-left: 1100px;
    position: absolute;
    top:230px
-
 }
-
+/*PAGE 9 COLUMN 4 LIST ITEMS ALIGNED  */
 #col4{
     font-size: 20px;
     line-height: 42px;
@@ -581,6 +552,51 @@ body {
     font-family: "Nunito";
     margin-left: 1070px;
     position: absolute;
-   top:280px
-
+   top:280px;
 }
+/* STYLING DONE FOR THE ANCHOR TAGS   */
+a{
+    text-decoration: none;
+    color:white;
+}
+/* STYLING DONE FOR THE EMAIL INPUT AREA */
+#emailinp{
+    position:relative;
+    border-radius:50px 0px 0px 50px;
+    height:63px;
+    width:450px;
+    margin-left:355px;
+    box-sizing: border-box;
+    z-index:1;
+    font-family: nunito;
+    border:none;
+   align-items: center;
+}
+/* STYLING DONE FOR THE PLACEHOLDER OF THE INPUT AREA */
+.filter {
+    position:relative;
+    border-radius:50px 0px 0px 50px;
+    height:63px;
+    width:450px;
+    margin-left:355px;
+    box-sizing: border-box;
+    outline: none;
+    padding: 5px;
+    border: 1px solid lightblue;
+  }
+  .placeholder {
+    position: absolute;
+    left: 380px;
+    top: 550px;
+    padding: 0 20px;
+    font-family: nunito;
+    font-size: larger;
+    color:#835e3f;
+  }
+  .filter:focus ~ .placeholder {
+    display: none;
+  }
+  .filter:visited ~ .placeholder{
+    display: none;
+  }
+
