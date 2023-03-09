@@ -560,19 +560,6 @@ a{
     color:white;
 }
 /* STYLING DONE FOR THE EMAIL INPUT AREA */
-#emailinp{
-    position:relative;
-    border-radius:50px 0px 0px 50px;
-    height:63px;
-    width:450px;
-    margin-left:355px;
-    box-sizing: border-box;
-    z-index:1;
-    font-family: nunito;
-    border:none;
-   align-items: center;
-}
-/* STYLING DONE FOR THE PLACEHOLDER OF THE INPUT AREA */
 .filter {
     position:relative;
     border-radius:50px 0px 0px 50px;
@@ -582,8 +569,9 @@ a{
     box-sizing: border-box;
     outline: none;
     padding: 5px;
-    border: 1px solid lightblue;
+    border: none;
   }
+  /* STYLING DONE FOR THE PLACEHOLDER OF THE INPUT AREA */
   .placeholder {
     position: absolute;
     left: 380px;
